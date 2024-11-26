@@ -11,4 +11,6 @@ xfconf-query -c xfce4-session -p /startup/Terminal -n -t string -s "plank"
 chmod +x set_shortcuts.sh
 bash set_shortcuts.sh
 
+echo "Everything done, please logout & login"
+
 xfce4-session-logout
