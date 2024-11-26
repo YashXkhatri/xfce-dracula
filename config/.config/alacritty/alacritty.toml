@@ -1,0 +1,11 @@
+general.import = ["~/.config/alacritty/dracula.toml"]
+
+[window]
+dimensions = { columns = 103, lines = 23 }
+opacity = 0.9
+
+[font]
+normal = { family = "Spleen 16x32", style = "Bold"}
+
+[cursor]
+style = { shape = "Underline", blinking = "Always"}
