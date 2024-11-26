@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Path to your shortcuts file
-SHORTCUTS_FILE="shortcuts.conf"
+SHORTCUTS_FILE="config/shortcuts.conf"
 
 # Check if the shortcuts file exists
 if [[ ! -f "$SHORTCUTS_FILE" ]]; then
